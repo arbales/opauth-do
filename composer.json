@@ -1,0 +1,23 @@
+{
+	"name": "opauth/do",
+	"description": "Do authentication strategy for Opauth",
+	"keywords": ["authentication","auth","do","salesforce"],
+	"homepage": "http://opauth.org",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Austin Bales",
+			"email": "austin@do.com",
+			"homepage": "http://austinbales.com"
+		}
+	],
+	"require": {
+		"php": ">=5.2.0",
+		"opauth/opauth": ">=0.4.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "."
+		}
+	}
+}
